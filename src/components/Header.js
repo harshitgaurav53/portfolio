@@ -39,7 +39,7 @@ const Header = () => {
             if (prevScrollpos > currentScrollPos) {
                 header.style.top = "0";
                 if (window.scrollY > 100) {
-                    document.getElementById("header-title").innerText = "Rajat Khatri";
+                    document.getElementById("header-title").innerText = "Harshit Gaurav";
                     header.style.background = "var(--bg-color)";
                     header.style.boxShadow = "0px 0px 10px rgba(0, 0, 0, 0.1)";
 
@@ -85,14 +85,14 @@ const Header = () => {
     }
 
     const onResumeClick = () => {
-        fetch('RajatKhatri.pdf').then(response => {
+        fetch('HarshitGaurav.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'RajatKhatri.pdf';
+                alink.download = 'HarshitGaurav.pdf';
                 alink.click();
             })
         })

@@ -37,13 +37,20 @@ const AboutScreen = () => {
                     <h4>ME, MYSELF AND I</h4>
                 </div>
                 <div className="about-content">
-                    <p>Hi, I’m a full stack web developer with over {experienceYears} year of experience. I have a knack for solving problems and making things work.
+                    <p>Strongly seasoned and hardworking Entry-Level Graphic
+                        Designer with extraordinary creative thinking and project
+                        design abilities.
                     </p>
                     <p>
-                        I have experience in using a bunch of technologies and frameworks 🛠️. You name it, I’ve probably used it. Or at least googled it. I enjoy learning new skills 📚 and taking on new challenges.
+                        Adept multitasker with the ability to bring
+                        simultaneous graphic design projects to completion with
+                        complete eciency and accuracy.
                     </p>
                     <p>
-                        I’m always up for a fun and interesting project, whether it’s a website for your business, or an app for your idea. Or maybe something completely crazy and out of the box. I’m game. Contact me today and let’s make something amazing together! 😊
+                        Able to work well
+                        independently or as a member of a professional graphic design
+                        team. Hands-on in transforming complex information and
+                        concepts into attractive, human-centered designs.
                     </p>
 
                 </div>

@@ -47,7 +47,7 @@ console.log(gif)
                                 alert("No live demo available")
                             }
                         }} >
-                            LIVE DEMO
+                            {/* LIVE DEMO */}
                         </p>
                     </div>
                     <h5>{name}</h5>

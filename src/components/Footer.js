@@ -10,7 +10,7 @@ const Footer = () => {
                     <Socials />
                 </div>
                 <div className="footer-bottom">
-                    © {new Date().getFullYear()} Rajat Khatri. All rights reserved.
+                    © {new Date().getFullYear()} Harshit Gaurav. All rights reserved.
                 </div>
             </footer>
         </section>

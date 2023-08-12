@@ -7,7 +7,7 @@ const HomeScreen = () => {
 
     useEffect(() => {
         //typwriter effect to show text and delete then show another text
-        const texts = ["A Full Stack Web Developer ", "A Programmer ", "A Student ", "A Tech Enthusiast "];
+        const texts = ["Creative Designer ", "UI/UX Designer "];
         let count = 0;
         let index = 0;
         let currentText = "";
@@ -51,7 +51,7 @@ const HomeScreen = () => {
                 }
             </div>
             <div className="home-content">
-                <h1>HEY, I'M <span>RAJAT KHATRI</span></h1>
+                <h1>HEY, I'M <span>HARSHIT GAURAV</span></h1>
                 <img src={manPrinting} style={{ pointerEvents: "none", userSelect: "none", width: "180px", height: "180px" }} />
                 <p></p>
             </div>
