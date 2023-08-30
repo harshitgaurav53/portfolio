@@ -44,13 +44,13 @@ const AboutScreen = () => {
                     <p>
                         Adept multitasker with the ability to bring
                         simultaneous graphic design projects to completion with
-                        complete eciency and accuracy.
+                        complete efficiency and accuracy.
                     </p>
                     <p>
                         Able to work well
                         independently or as a member of a professional graphic design
                         team. Hands-on in transforming complex information and
-                        concepts into attractive, human-centered designs.
+                        concepts into attractive, human-centered designs.
                     </p>
 
                 </div>
