@@ -18,7 +18,7 @@ const Card = (props) => {
                             alert("No live demo available")
                         }
                     }} >
-                        LIVE DEMO
+                        GitHub Link
                     </p>
                     <p className="card-rm" onClick={() => { handleReadMore(props) }} >Read More</p>
                 </div>

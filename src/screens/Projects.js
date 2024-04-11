@@ -4,6 +4,7 @@ import ProjectReadMore from "../components/ProjectReadMore";
 import brainWaveDemoGif from "../images/BrainWaveDemo.gif";
 import brainWaveImg from "../images/BrainWave.jpg";
 import dataShuttleproImg from '../images/data_shuttle_pro.jpg';
+import chatAppImg from '../images/chatApp.png';
 
 const Projects = () => {
 
@@ -15,7 +16,14 @@ const Projects = () => {
             name: 'Data Shuttle Pro',
             title: 'File Transfer',
             description: 'Effortlessly move your files across the digital universe with Data Shuttle Pro! Seamlessly transfer data between FTP, Google Drive, SFTP, and local storage. Your data, your way!',
-            liveDemo: ''
+            liveDemo: 'https://github.com/MrMorningStark/fileTransfer'
+        },
+        {
+            img: chatAppImg,
+            name: 'Whatsapp Clone',
+            title: 'Message App',
+            description: "Whatsapp clone is a modern messaging app that allows you to send and receive messages. It's built with Flutter for Android and iOS.",
+            liveDemo: 'https://github.com/MrMorningStark/chat_app_frontend'
         },
         // {
         //     img: brainWaveImg,
@@ -75,7 +83,7 @@ const Projects = () => {
                         return (
                             <Card
                                 key={index}
-                                index={index + 5}
+                                index={index + 2}
                                 img={project.img}
                                 gif={project.gif}
                                 name={project.name}

@@ -92,7 +92,7 @@ const Header = () => {
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'RajatKhatri.pdf';
+                alink.download = 'Rajat_Khatri_CV.pdf';
                 alink.click();
             })
         })

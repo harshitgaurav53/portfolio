@@ -67,11 +67,8 @@ const SkillsScreen = () => {
                     <p>Jenkins (for continuous integration and continuous delivery)</p>
                     <p>Git & GitHub</p>
                     <p>RabbitMQ</p>
-                    <p>Kubernetes</p>
                     <p>AWS</p>
                     <p>Digital Ocean</p>
-                    <p>Heroku</p>
-                    <p>Render</p>
                     <p>Grafana</p>
 
                 </div>
