@@ -491,6 +491,23 @@ footer .footer-bottom {
         letter-spacing: 1px;
     }
 
+    .home-content h1 {
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-weight: 900;
+        transition: all 1s linear !important;
+        line-height: 60px;
+    }
+
+    .home-content h1 {
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-weight: 900;
+        transition: all 1s linear !important;
+        line-height: 60px;
+        font-size: 32px !important;
+    }
+
     .home-content img {
         width: 160px !important;
         height: 160px !important;
